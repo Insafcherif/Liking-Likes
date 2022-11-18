@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-weight: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 100px;
+    padding-top: 50px;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.dessous {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnLike {
+    margin-top: 10px;
+    background-color: rgb(249, 190, 94);
+    color: rgb(14, 14, 14);
+    padding: 2px;
+    width: 65px;
+}
